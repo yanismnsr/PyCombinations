@@ -103,7 +103,7 @@ def find_combinations (list, k) :
 
     n = len(list)
     combinations = []
-    if k < 0 and k > n :
+    if k < 0 or k > n :
         raise ValueError ("k must be equal to 0 or positive and less than or equal to n")
     if k == 0 :
         return [[]]
