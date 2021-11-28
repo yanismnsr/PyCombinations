@@ -1,6 +1,12 @@
 # The package
-combinations is a package used to generate all possible combinations of a given length `k` 
+combs is a package used to generate all possible combinations of a given length `k` 
 on a given set. The set is given as a list, and `k` must be equal to 0 or positive. 
+
+# Installation
+To install the package, simply tap this command :
+```
+python3 -m pip install PyCombs
+```
 
 # Usage examples 
 
@@ -32,3 +38,6 @@ Output :
 ```
 [['github', 'gitlab', 'azuredevops'], ['github', 'gitlab', 'svn'], ['github', 'azuredevops', 'svn'], ['gitlab', 'azuredevops', 'svn']]
 ```
+
+# Package link 
+[pypi](https://pypi.org/project/PyCombs/)
